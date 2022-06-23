@@ -8,8 +8,7 @@ body {
 /* main styles */
 
 .main {
-    2
-    : flex;
+    display: flex;
     flex-direction: row-reverse;
     width: 1200px;
     margin: 0 auto;
