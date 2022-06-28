@@ -1,9 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
-
     }
-
 
 /* main styles */
 
@@ -267,3 +265,15 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+
+/* mobile */
+
+ @media screen and (max-width: 900px) {
+     .main {
+         flex-direction: column;
+     }
+
+     .sidebar {
+         width: 100%;
+     }
+ }
